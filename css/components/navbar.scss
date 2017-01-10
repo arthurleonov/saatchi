@@ -1,0 +1,20 @@
+.navbar {
+  margin-top: 1rem;
+  .navbar-brand {
+    font-size: 30px;
+    font-family: $headline-font;
+    text-transform: uppercase;
+    color: $black;
+    font-weight: bold;
+  }
+  li {
+    a {
+      color: $black;
+      transition: all 0.1s ease;
+      &:hover {
+        background-color: white;
+        color: $red;
+      }
+    }
+  }
+}
