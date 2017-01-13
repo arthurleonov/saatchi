@@ -1,0 +1,27 @@
+.homepage-header {
+  position: relative;
+  .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .left-text { // top left text
+    padding-left: 3rem;
+    .top-p {
+      font-size: 23px;
+      text-transform: uppercase;
+      color: $black;
+      font-family: $headline-font;
+      margin-top: 7rem;
+    }
+    h1 {
+      margin-bottom: 7rem;
+    }
+  }
+  .left-img { // bottom img
+    bottom: 0;
+  }
+  .right-img { // right img
+    max-width: 45rem;
+  }
+
+}

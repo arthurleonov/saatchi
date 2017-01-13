@@ -3,7 +3,9 @@ body, html {
   font-size: 16px; }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold; }
 
 p, span {
   font-family: 'Roboto', sans-serif;
@@ -24,3 +26,32 @@ p, span {
     .navbar li a:hover {
       background-color: white;
       color: #E64D11; }
+
+.homepage-header {
+  position: relative; }
+  .homepage-header .no-padding {
+    padding-left: 0;
+    padding-right: 0; }
+  .homepage-header .left-text {
+    padding-left: 3rem; }
+    .homepage-header .left-text .top-p {
+      font-size: 23px;
+      text-transform: uppercase;
+      color: #424040;
+      font-family: "Montserrat", sans-serif;
+      margin-top: 7rem; }
+    .homepage-header .left-text h1 {
+      margin-bottom: 7rem; }
+  .homepage-header .left-img {
+    bottom: 0; }
+  .homepage-header .right-img {
+    max-width: 45rem; }
+
+.visit-saatchi .bg {
+  background-image: url("/img/get-pattern-01.svg");
+  background-size: 45rem;
+  height: 8rem;
+  display: block;
+  margin-right: 4.7rem;
+  margin-top: 3rem;
+  margin-left: 9rem; }
