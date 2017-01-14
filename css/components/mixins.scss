@@ -1,4 +1,4 @@
-$spaceamounts: (5, 10, 15, 20, 25, 30, 35, 40, 45, 50);
+$spaceamounts: (5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100, 150, 200);
 @mixin generate-margin-top() {
   @each $space in $spaceamounts {
     .mt-#{$space} {

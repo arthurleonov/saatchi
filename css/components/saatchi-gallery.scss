@@ -1,12 +1,30 @@
 .saatchi-gallery {
   margin-top: 8rem;
-  margin-bottom: 12rem;
+  margin-bottom: 8rem;
+  position: relative;
+
   .visits {
-    background-color: $dark-pink;
+    background-image: url('/img/school-pattern2.jpg');
+    background-size: 30rem;
     padding: 2rem;
     color: white;
     a {
       color: white;
+      display: block;
+      font-weight: bold;
+    }
+  }
+  .store {
+    background-image: url('/img/shop-pattern.jpg');
+    background-size: 30rem;
+    padding: 2rem;
+    color: white;
+    padding: 2rem;
+    color: white;
+    a {
+      color: white;
+      display: block;
+      font-weight: bold;
     }
   }
 }
