@@ -24,4 +24,14 @@
       max-width: 350px;
     }
   }
+  .layout-4 {
+    .no-padding {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    ul {
+      list-style: none;
+      display: inline-block;
+    }
+  }
 }
