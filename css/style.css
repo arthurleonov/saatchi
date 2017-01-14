@@ -77,7 +77,7 @@ p, span, a {
   padding-left: 2rem;
   font-size: 1.8rem; }
 .visit-saatchi .bg {
-  background-image: url("/img/get-pattern-01.svg");
+  background-image: url("/saatchi/img/get-pattern-01.svg");
   background-size: 45rem;
   height: 11rem;
   display: block;
@@ -106,7 +106,6 @@ p, span, a {
   margin-bottom: 8rem;
   position: relative; }
   .saatchi-gallery .visits {
-    background-image: url("/img/school-pattern2.jpg");
     background-size: 30rem;
     padding: 2rem;
     color: white; }
@@ -115,7 +114,6 @@ p, span, a {
       display: block;
       font-weight: bold; }
   .saatchi-gallery .store {
-    background-image: url("/img/shop-pattern.jpg");
     background-size: 30rem;
     padding: 2rem;
     color: white;
