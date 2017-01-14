@@ -67,14 +67,12 @@ p, span, a {
   .homepage-header .left-img {
     bottom: 0; }
   .homepage-header .right-img {
-    max-width: 45rem; }
+    max-width: 47rem; }
     @media screen and (max-width: 1200px) {
       .homepage-header .right-img {
         max-width: 100%; } }
 
 .visit-saatchi h3 {
-  padding-top: 1rem;
-  padding-left: 2rem;
   font-size: 1.8rem; }
 .visit-saatchi .bg {
   background-size: 45rem;
@@ -84,21 +82,14 @@ p, span, a {
   margin-top: 2rem;
   margin-left: 1rem; }
 .visit-saatchi h4 {
-  font-size: 1rem;
-  margin-bottom: 1rem; }
-.visit-saatchi .underground, .visit-saatchi .buses {
-  padding-left: 1rem; }
-  .visit-saatchi .underground img, .visit-saatchi .buses img {
-    width: 40px;
-    margin-bottom: 1rem;
-    display: inline-block; }
-  .visit-saatchi .underground p, .visit-saatchi .buses p {
-    display: inline-block;
-    margin-top: 0.2rem;
-    vertical-align: top;
-    padding-left: 13px; }
-.visit-saatchi .opening p {
-  margin-top: 1rem; }
+  font-size: 1rem; }
+.visit-saatchi .underground img, .visit-saatchi .buses img {
+  width: 40px;
+  display: inline-block; }
+.visit-saatchi .underground p, .visit-saatchi .buses p {
+  display: inline-block;
+  margin-top: 0.2rem;
+  vertical-align: top; }
 
 .saatchi-gallery {
   margin-top: 8rem;
@@ -156,6 +147,9 @@ p, span, a {
 .mt-100 {
   margin-top: 100px; }
 
+.mt-120 {
+  margin-top: 120px; }
+
 .mt-150 {
   margin-top: 150px; }
 
@@ -194,6 +188,9 @@ p, span, a {
 
 .mb-100 {
   margin-bottom: 100px; }
+
+.mb-120 {
+  margin-bottom: 120px; }
 
 .mb-150 {
   margin-bottom: 150px; }
@@ -234,6 +231,9 @@ p, span, a {
 .mr-100 {
   margin-right: 100px; }
 
+.mr-120 {
+  margin-right: 120px; }
+
 .mr-150 {
   margin-right: 150px; }
 
@@ -272,6 +272,9 @@ p, span, a {
 
 .ml-100 {
   margin-left: 100px; }
+
+.ml-120 {
+  margin-left: 120px; }
 
 .ml-150 {
   margin-left: 150px; }
@@ -312,6 +315,9 @@ p, span, a {
 .pt-100 {
   padding-top: 100px; }
 
+.pt-120 {
+  padding-top: 120px; }
+
 .pt-150 {
   padding-top: 150px; }
 
@@ -350,6 +356,9 @@ p, span, a {
 
 .pb-100 {
   padding-bottom: 100px; }
+
+.pb-120 {
+  padding-bottom: 120px; }
 
 .pb-150 {
   padding-bottom: 150px; }
@@ -390,6 +399,9 @@ p, span, a {
 .pl-100 {
   padding-left: 100px; }
 
+.pl-120 {
+  padding-left: 120px; }
+
 .pl-150 {
   padding-left: 150px; }
 
@@ -428,6 +440,9 @@ p, span, a {
 
 .pr-100 {
   padding-right: 100px; }
+
+.pr-120 {
+  padding-right: 120px; }
 
 .pr-150 {
   padding-right: 150px; }

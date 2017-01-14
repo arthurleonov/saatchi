@@ -1,7 +1,5 @@
 .visit-saatchi {
     h3 {
-      padding-top: 1rem;
-      padding-left: 2rem;
       font-size: 1.8rem;
     }
    .bg {
@@ -14,25 +12,20 @@
   }
   h4 {
     font-size: 1rem;
-    margin-bottom: 1rem;
   }
   .underground, .buses {
-    padding-left: 1rem;
     img {
       width: 40px;
-      margin-bottom: 1rem;
       display: inline-block;
     }
     p {
       display: inline-block;
       margin-top: 0.2rem;
       vertical-align: top;
-      padding-left: 13px;
     }
   }
   .opening {
     p {
-      margin-top: 1rem;
     }
   }
 }
