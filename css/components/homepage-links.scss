@@ -1,0 +1,10 @@
+.homepage-links {
+  a {
+    color: $red;
+    font-size: 1.5rem;
+    display: block;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

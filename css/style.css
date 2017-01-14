@@ -517,3 +517,10 @@ p, span, a {
 .coming-soon .layout-4 ul {
   list-style: none;
   display: inline-block; }
+
+.homepage-links a {
+  color: #E64D11;
+  font-size: 1.5rem;
+  display: block; }
+  .homepage-links a:hover {
+    cursor: pointer; }
