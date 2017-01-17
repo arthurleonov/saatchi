@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto");
 body, html {
-  font-size: 16px; }
+  font-size: 16px;
+  overflow-x: hidden; }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
@@ -34,43 +35,38 @@ p, span, a {
     position: absolute;
     z-index: -1;
     opacity: 0.03;
+    padding-left: 8rem;
     top: 5px; }
     @media screen and (min-width: 900px) and (max-width: 1200px) {
       .homepage-header .now-showing-type {
         left: -3rem; } }
     .homepage-header .now-showing-type h1 {
-      font-size: 10rem;
-      margin-top: 1rem;
-      margin-bottom: 5rem; }
+      font-size: 10rem; }
       @media screen and (min-width: 900px) and (max-width: 1200px) {
         .homepage-header .now-showing-type h1 {
           line-height: 9rem; } }
   .homepage-header .no-padding {
     padding-left: 0;
     padding-right: 0; }
-  .homepage-header .left-text {
-    padding-left: 3rem; }
-    @media screen and (min-width: 900px) and (max-width: 1200px) {
-      .homepage-header .left-text {
-        padding-left: 0; } }
-    .homepage-header .left-text .top-p {
-      font-size: 19px;
-      text-transform: uppercase;
-      color: #424040;
-      font-family: "Montserrat", sans-serif;
-      margin-top: 6rem; }
+  .homepage-header .left {
+    padding-left: 8rem; }
+  @media screen and (min-width: 900px) and (max-width: 1200px) {
+    .homepage-header .left-text {
+      padding-left: 0; } }
+  .homepage-header .left-text .top-p {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #424040;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 6rem; }
+  @media screen and (max-width: 1200px) {
     .homepage-header .left-text h1 {
-      margin-bottom: 7rem; }
-      @media screen and (max-width: 1200px) {
-        .homepage-header .left-text h1 {
-          font-size: 3.5rem; } }
+      font-size: 3.5rem; } }
   .homepage-header .left-img {
     bottom: 0; }
-  .homepage-header .right-img {
-    max-width: 47rem; }
-    @media screen and (max-width: 1200px) {
-      .homepage-header .right-img {
-        max-width: 100%; } }
+  @media screen and (max-width: 1200px) {
+    .homepage-header .right-img {
+      max-width: 100%; } }
 
 .visit-saatchi h3 {
   font-size: 1.8rem; }
@@ -162,6 +158,15 @@ p, span, a {
 .mt-200 {
   margin-top: 200px; }
 
+.mt-250 {
+  margin-top: 250px; }
+
+.mt-300 {
+  margin-top: 300px; }
+
+.mt-350 {
+  margin-top: 350px; }
+
 .mb-5 {
   margin-bottom: 5px; }
 
@@ -209,6 +214,15 @@ p, span, a {
 
 .mb-200 {
   margin-bottom: 200px; }
+
+.mb-250 {
+  margin-bottom: 250px; }
+
+.mb-300 {
+  margin-bottom: 300px; }
+
+.mb-350 {
+  margin-bottom: 350px; }
 
 .mr-5 {
   margin-right: 5px; }
@@ -258,6 +272,15 @@ p, span, a {
 .mr-200 {
   margin-right: 200px; }
 
+.mr-250 {
+  margin-right: 250px; }
+
+.mr-300 {
+  margin-right: 300px; }
+
+.mr-350 {
+  margin-right: 350px; }
+
 .ml-5 {
   margin-left: 5px; }
 
@@ -305,6 +328,15 @@ p, span, a {
 
 .ml-200 {
   margin-left: 200px; }
+
+.ml-250 {
+  margin-left: 250px; }
+
+.ml-300 {
+  margin-left: 300px; }
+
+.ml-350 {
+  margin-left: 350px; }
 
 .pt-5 {
   padding-top: 5px; }
@@ -354,6 +386,15 @@ p, span, a {
 .pt-200 {
   padding-top: 200px; }
 
+.pt-250 {
+  padding-top: 250px; }
+
+.pt-300 {
+  padding-top: 300px; }
+
+.pt-350 {
+  padding-top: 350px; }
+
 .pb-5 {
   padding-bottom: 5px; }
 
@@ -401,6 +442,15 @@ p, span, a {
 
 .pb-200 {
   padding-bottom: 200px; }
+
+.pb-250 {
+  padding-bottom: 250px; }
+
+.pb-300 {
+  padding-bottom: 300px; }
+
+.pb-350 {
+  padding-bottom: 350px; }
 
 .pl-5 {
   padding-left: 5px; }
@@ -450,6 +500,15 @@ p, span, a {
 .pl-200 {
   padding-left: 200px; }
 
+.pl-250 {
+  padding-left: 250px; }
+
+.pl-300 {
+  padding-left: 300px; }
+
+.pl-350 {
+  padding-left: 350px; }
+
 .pr-5 {
   padding-right: 5px; }
 
@@ -497,6 +556,15 @@ p, span, a {
 
 .pr-200 {
   padding-right: 200px; }
+
+.pr-250 {
+  padding-right: 250px; }
+
+.pr-300 {
+  padding-right: 300px; }
+
+.pr-350 {
+  padding-right: 350px; }
 
 .coming-soon h2 {
   font-size: 2.5rem; }
