@@ -71,13 +71,13 @@ p, span, a {
 .homepage-header2 {
   position: relative; }
   .homepage-header2 .header-title {
-    font-size: 4rem;
+    font-size: 4.5rem;
     width: 40rem;
     transform: rotate(90deg);
-    transform-origin: 100px 200px;
+    transform-origin: 60px 220px;
     display: inline-block; }
     .homepage-header2 .header-title.surname {
-      transform-origin: 160px 200px; }
+      transform-origin: 140px 220px; }
   .homepage-header2 .header-container {
     padding-left: 50px;
     padding-top: 50px;

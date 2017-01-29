@@ -59,13 +59,13 @@
 .homepage-header2 {
   position: relative;
   .header-title {
-    font-size: 4rem;
+    font-size: 4.5rem;
     width: 40rem;
     transform: rotate(90deg);
-	transform-origin: 100px 200px;
+	transform-origin: 60px 220px;
   display: inline-block;
   &.surname {
-        transform-origin: 160px 200px;
+        transform-origin: 140px 220px;
   }
   }
   .header-container {
