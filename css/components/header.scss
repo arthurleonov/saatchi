@@ -37,7 +37,7 @@
       margin-top: 6rem;
     }
     h1 {
-    
+
       @media screen and (max-width: 1200px) {
         font-size: 3.5rem;
       }
@@ -53,4 +53,34 @@
     }
   }
 
+}
+
+
+.homepage-header2 {
+  position: relative;
+  .header-title {
+    font-size: 4rem;
+    width: 40rem;
+    transform: rotate(90deg);
+	transform-origin: 100px 200px;
+  display: inline-block;
+  &.surname {
+        transform-origin: 160px 200px;
+  }
+  }
+  .header-container {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+    height: 700px;
+  }
+  .vertical-line {
+    vertical-align: middle;
+    height: 5px;
+    width: 120px;
+    display: inline-block;
+    margin-bottom: 28px;
+    background-color: $black;
+  }
 }

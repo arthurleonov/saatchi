@@ -68,6 +68,30 @@ p, span, a {
     .homepage-header .right-img {
       max-width: 100%; } }
 
+.homepage-header2 {
+  position: relative; }
+  .homepage-header2 .header-title {
+    font-size: 4rem;
+    width: 40rem;
+    transform: rotate(90deg);
+    transform-origin: 100px 200px;
+    display: inline-block; }
+    .homepage-header2 .header-title.surname {
+      transform-origin: 160px 200px; }
+  .homepage-header2 .header-container {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+    height: 700px; }
+  .homepage-header2 .vertical-line {
+    vertical-align: middle;
+    height: 5px;
+    width: 120px;
+    display: inline-block;
+    margin-bottom: 28px;
+    background-color: #424040; }
+
 .visit-saatchi h3 {
   font-size: 1.8rem; }
 .visit-saatchi .bg {
