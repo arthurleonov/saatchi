@@ -80,7 +80,7 @@ p, span, a {
       transform-origin: 140px 220px; }
   .homepage-header2 .header-container {
     padding-left: 50px;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-right: 50px;
     overflow: hidden;
     height: 700px; }
@@ -89,8 +89,21 @@ p, span, a {
     height: 5px;
     width: 120px;
     display: inline-block;
-    margin-bottom: 28px;
+    margin-bottom: 33px;
     background-color: #424040; }
+
+.logo {
+  position: relative;
+  width: 100%; }
+  .logo h1 {
+    position: relative;
+    top: 20px;
+    left: 15px;
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 50px;
+    padding-left: 30px; }
 
 .visit-saatchi h3 {
   font-size: 1.8rem; }

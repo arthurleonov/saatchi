@@ -70,7 +70,7 @@
   }
   .header-container {
     padding-left: 50px;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-right: 50px;
     overflow: hidden;
     height: 700px;
@@ -80,7 +80,23 @@
     height: 5px;
     width: 120px;
     display: inline-block;
-    margin-bottom: 28px;
+    margin-bottom: 33px;
     background-color: $black;
+  }
+}
+
+
+.logo {
+  position: relative;
+  width: 100%;
+  h1 {
+    position: relative;
+    top: 20px;
+    left: 15px;
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 50px;
+    padding-left: 30px;
   }
 }
