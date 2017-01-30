@@ -55,17 +55,17 @@
 
 }
 
-
 .homepage-header2 {
   position: relative;
   .header-title {
     font-size: 4rem;
     width: 40rem;
     transform: rotate(90deg);
-	transform-origin: 90px 175px;
-  display: inline-block;
+  	transform-origin: 90px 175px;
+    display: inline-block;
+    letter-spacing: 3px;
   &.surname {
-        transform-origin: 170px 170px;
+        transform-origin: 165px 165px;
         .middle-name {
           font-size: 3rem;
           font-family: $headline-font;
@@ -105,5 +105,27 @@
     margin-bottom: 0;
     line-height: 50px;
     padding-left: 30px;
+  }
+}
+
+.visit-saatchi {
+  h3 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .horizontal-line {
+    vertical-align: middle;
+    height: 4px;
+width: 94px;
+display: inline-block;
+margin-bottom: 25px;
+background-color: $black;
+margin-left: 25px;
+  }
+  .underground {
+    color: #0019a8;
+  }
+  .bus {
+    color: #dc241f;
   }
 }

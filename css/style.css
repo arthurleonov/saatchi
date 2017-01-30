@@ -75,9 +75,10 @@ p, span, a {
     width: 40rem;
     transform: rotate(90deg);
     transform-origin: 90px 175px;
-    display: inline-block; }
+    display: inline-block;
+    letter-spacing: 3px; }
     .homepage-header2 .header-title.surname {
-      transform-origin: 170px 170px; }
+      transform-origin: 165px 165px; }
       .homepage-header2 .header-title.surname .middle-name {
         font-size: 3rem;
         font-family: "Montserrat", sans-serif;
@@ -110,6 +111,22 @@ p, span, a {
     margin-bottom: 0;
     line-height: 50px;
     padding-left: 30px; }
+
+.visit-saatchi h3 {
+  margin-bottom: 5px;
+  margin-top: 5px; }
+.visit-saatchi .horizontal-line {
+  vertical-align: middle;
+  height: 4px;
+  width: 94px;
+  display: inline-block;
+  margin-bottom: 25px;
+  background-color: #424040;
+  margin-left: 25px; }
+.visit-saatchi .underground {
+  color: #0019a8; }
+.visit-saatchi .bus {
+  color: #dc241f; }
 
 .visit-saatchi h3 {
   font-size: 1.8rem; }
