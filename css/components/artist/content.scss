@@ -1,0 +1,28 @@
+.text-container {
+  position: relative;
+  bottom: 5rem;
+  padding: 0rem 10rem;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  .top-img {
+    width: 30rem;
+    z-index: 1;
+    position: relative;
+  }
+  .bottom-img {
+    width: 12rem;
+    left: -4rem;
+    position: relative;
+    bottom: 8rem;
+    z-index: 0;
+  }
+}
+
+.bio-container {
+  .year {
+    font-size: 1.2rem;
+  }
+}

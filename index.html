@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-home
 ---
 <div class='container-wide logo'>
   <h1>Saatchi</h1>
@@ -87,62 +87,73 @@ layout: default
   </div>
 </div> -->
 
+<div id="trigger-1">
 
-<div class="container mt-100 coming-soon">
+</div>
+<div style="top: 20vh; margin-bottom: 200rem; position: relative;" class="container coming-soon current">
   <div class="row">
-    <div class="col-sm-10 col-sm-offset-2">
-      <h2>
+    <div class="col-sm-10 col-sm-offset-2 ">
+      <h2 class="mt-100 index-3">
         Current Exibitions
       </h2>
     </div>
   </div>
-  <div class="row layout-1">
+  <div class="row layout-1 ">
     <div class="col-sm-4 col-sm-offset-2">
-      <img class="img-responsive mt-100" src="{{site.baseurl}}/img/painterspainters.jpg"/>
+
+        <div class="mt-100" style="height: 505px; overflow-y: hidden;">
+            <div class="index-1" style="background-image: url('{{site.baseurl}}/img/painterspainters.jpg'); height: 600px; position: relative; background-position: fixed; background-repeat: no-repeat"></div>
+        </div>
+
+
     </div>
     <div class="col-sm-6">
-      <h3 class="mt-150 pl-50">Painters Painters</h3>
-      <p class="pl-50 sub mt-5">
-        30 Nov 2016 - 28 Feb 2017
-      </p>
-      <ul class="pl-50">
-        <li>
-          Richard Aldrich
-        </li>
-        <li>
-          David Brian Smith
-        </li>
-        <li>
-          Dexter Dalwood
-        </li>
-        <li>
-          Raffi Kalenderian
-        </li>
-        <li>
-          Ansel Krut
-        </li>
-        <li>
-          Bjarne Melgaard
-        </li>
-        <li>
-          Ryan Mosley
-        </li>
-        <li>
-          David Salle
-        </li>
-      </ul>
+      <div class="index-2" style="position: relative;">
+        <h3 class="mt-150 pl-50">Painters Painters</h3>
+        <p class="pl-50 sub mt-5">
+          30 Nov 2016 - 28 Feb 2017
+        </p>
+        <ul class="pl-50" id="naik">
+          <li>
+            Richard Aldrich
+          </li>
+          <li>
+            David Brian Smith
+          </li>
+          <li>
+            Dexter Dalwood
+          </li>
+          <li>
+            Raffi Kalenderian
+          </li>
+          <li>
+            Ansel Krut
+          </li>
+          <li>
+            Bjarne Melgaard
+          </li>
+          <li>
+            Ryan Mosley
+          </li>
+          <li>
+            David Salle
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
+</div>
 
-  <div class="row layout-2 mt-100">
+<!-- <div class="container coming-soon js-parallax">
+  <div class="row layout-2">
     <div class="col-sm-2 no-padding">
       <img class="img-responsive mt-100 left-img" src="{{site.baseurl}}/img/dan2.jpg"/>
     </div>
     <div class="col-sm-4 no-padding">
-      <img class="img-responsive mt-100" src="{{site.baseurl}}/img/dan1.jpg"/>
+      <img class="img-responsive  mt-100" src="{{site.baseurl}}/img/dan1.jpg"/>
     </div>
-    <div class="col-sm-6 no-padding">
-      <h3 class="mt-150 pl-50">PRINTS & ORIGINALS GALLERY</h3>
+    <div class="col-sm-6  no-padding">
+      <h3 class="mt-150 pl-50" id="test-trigger">PRINTS & ORIGINALS GALLERY</h3>
       <p class="sub pl-50 mt-5">
         30 Nov 2016 - 28 Feb 2017
       </p>
@@ -155,11 +166,9 @@ layout: default
       <img class="img-responsive mt-50 right-img" src="{{site.baseurl}}/img/dan3.jpg"/>
     </div>
   </div>
-
 </div>
 
-
-<div class="container coming-soon mt-150">
+<div class="container coming-soon future-exeb js-parallax">
 
   <div class="row">
 
@@ -176,16 +185,15 @@ layout: default
   </div>
 
 
+  <div class="layout-3 ">
 
-  <div class="layout-3 mb-100">
-
-    <div class="row">
+    <div class="row ">
       <div class="col-sm-10 col-sm-offset-2">
             <img class="img-responsive mt-100 right-img" src="{{site.baseurl}}/img/pots.jpg"/>
       </div>
     </div>
 
-    <div class="row">
+    <div class="row ">
       <div class="col-sm-6 col-sm-offset-2">
         <h3 class="mt-50">Collect: The International Art Fair for Contemporary Objects</h3>
         <p class="sub mt-5">
@@ -204,8 +212,10 @@ layout: default
     </div>
 
   </div>
+</div>
 
-  <div class="row layout-1">
+<div class="container coming-soon future-exeb js-parallax">
+  <div class="row  layout-1 ">
     <div class="col-sm-4 col-sm-offset-2">
       <img class="img-responsive mt-100" src="{{site.baseurl}}/img/iconolasts.jpg"/>
     </div>
@@ -260,11 +270,16 @@ layout: default
       </ul>
     </div>
   </div>
+</div>
+
+
+<div class="container coming-soon js-parallax ">
+
   <div class="layout-4 mt-70 mb-200">
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2 no-padding">
-        <img class="img-responsive mt-100" src="{{site.baseurl}}/img/valerie-hegarty.jpg"/>
-        <div class="col-sm-8">
+        <img class="img-responsive mt-100 " src="{{site.baseurl}}/img/valerie-hegarty.jpg"/>
+        <div class="col-sm-8 js-parllax">
           <h3 class="mt-50 pl-50">Known unknowns</h3>
           <p class="pl-50 sub mt-5">
             Dates to be announced.
@@ -358,7 +373,9 @@ layout: default
   </div>
 
 </div>
+<div class="more-link">
 
+</div>
 
 <div class="homepage-links container">
   <div class="row">
@@ -368,4 +385,4 @@ layout: default
       <a class="mb-20"> 30 Years: Some of the 300+ Artists Exhibited  <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
     </div>
   </div>
-</div>
+</div> -->
