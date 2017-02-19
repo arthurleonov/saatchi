@@ -9,5 +9,7 @@ h1,h2,h3,h4,h5 {
 p, span, a {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 1.7rem;
+  line-height: 28px;
+  text-align: left;
+  color: $black;
 }
