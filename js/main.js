@@ -39,8 +39,33 @@ var image1text = TweenMax.to('.pr-image1-text', 1, {
 });
 
 
-var title = TweenMax.to('.index-3', 1, {
-  transform: 'translate(0px, -10vh)',
+var l2Image1 = TweenMax.to('.pr-l2-image1', 1, {
+  transform: 'translate(0px, -20vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
+var l2Image1Container = TweenMax.to('.pr-l2-image1-container', 1, {
+  transform: 'translate(0px, -20vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
+var l2Image2 = TweenMax.to('.pr-l2-image2', 1, {
+  transform: 'translate(0px, -20vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
+var l2Image2Container = TweenMax.to('.pr-l2-image2-container', 1, {
+  transform: 'translate(0px, 20vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
+var l2Image3 = TweenMax.to('.pr-l2-image3', 1, {
+  transform: 'translate(0px, -20vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
+var l2Image3Container = TweenMax.to('.pr-l2-image3-container', 1, {
+  transform: 'translate(0px, -20vh)',
   ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
 });
 
@@ -78,8 +103,28 @@ var mainIllustrationFunction = function(){
 
   // 2nd layout
 
-  var layer3Scene = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1400 } )
-  .setTween(title)
+  var layerL2Image1Container = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1400 } )
+  .setTween(l2Image1Container)
+  .addTo(controller);
+
+  var layerL2Image1 = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1400 } )
+  .setTween(l2Image1)
+  .addTo(controller);
+
+  var layerL2Image2Container = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1400 } )
+  .setTween(l2Image2Container)
+  .addTo(controller);
+
+  var layerL2Image2 = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1400 } )
+  .setTween(l2Image2)
+  .addTo(controller);
+
+  var layerL2Image3Container = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1400 } )
+  .setTween(l2Image3Container)
+  .addTo(controller);
+
+  var layerL2Image3 = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1400 } )
+  .setTween(l2Image3)
   .addTo(controller);
 
 }
