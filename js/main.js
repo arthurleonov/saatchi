@@ -33,8 +33,8 @@ var image1 = TweenMax.to('.pr-image1', 1, {
   ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
 });
 
-var text = TweenMax.to('.index-2', 1, {
-  transform: 'translate(0px, -25vh)',
+var image1text = TweenMax.to('.pr-image1-text', 1, {
+  transform: 'translate(0px, -20vh)',
   ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
 });
 
@@ -57,22 +57,26 @@ var mainIllustrationFunction = function(){
 
   //currentExibitions
 
-  var layer3Scene = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1000, offset: -200 } )
+   // 1st layout
+
+  var layerCurrentExib = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1000, offset: -200 } )
   .setTween(currentExibitions)
   .addTo(controller);
 
-  var layer1Scene = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1200 } )
+  var layerImage1Container = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1200 } )
   .setTween(image1Container)
   .addTo(controller);
 
-
-  var layer1Scene = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 2500 } )
+  var layerImage1 = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 2500 } )
   .setTween(image1)
   .addTo(controller);
 
-  var layer2Scene = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1400 } )
-  .setTween(text)
+  var layerImage1Text = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 650 } )
+  .setTween(image1text)
   .addTo(controller);
+
+
+  // 2nd layout
 
   var layer3Scene = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1400 } )
   .setTween(title)
