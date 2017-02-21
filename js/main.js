@@ -9,8 +9,27 @@ var mainDuration = function(){
 console.log($(document).height());
 console.log($(window).height());
 
-var image = TweenMax.to('.index-1', 1, {
-  transform: 'translate(0px, -30vh)',
+//header
+
+var header = TweenMax.to('.pr-header-1', 1, {
+  transform: 'translate(0px, 15vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
+//cuurent exibitions
+
+var currentExibitions = TweenMax.to('.pr-currentExibitions', 1, {
+  transform: 'translate(0px, -10vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
+var image1Container = TweenMax.to('.pr-image1-container', 1, {
+  transform: 'translate(0px, -20vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
+var image1 = TweenMax.to('.pr-image1', 1, {
+  transform: 'translate(0px, -20vh)',
   ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
 });
 
@@ -18,6 +37,7 @@ var text = TweenMax.to('.index-2', 1, {
   transform: 'translate(0px, -25vh)',
   ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
 });
+
 
 var title = TweenMax.to('.index-3', 1, {
   transform: 'translate(0px, -10vh)',
@@ -28,8 +48,26 @@ var title = TweenMax.to('.index-3', 1, {
 
 var mainIllustrationFunction = function(){
 
+  //header
+
+  var layerHeader = new ScrollMagic.Scene( {triggerElement: "#trigger-header", duration: 1400 } )
+  .setTween(header)
+  .addTo(controller);
+
+
+  //currentExibitions
+
+  var layer3Scene = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1000, offset: -200 } )
+  .setTween(currentExibitions)
+  .addTo(controller);
+
+  var layer1Scene = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1200 } )
+  .setTween(image1Container)
+  .addTo(controller);
+
+
   var layer1Scene = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 2500 } )
-  .setTween(image)
+  .setTween(image1)
   .addTo(controller);
 
   var layer2Scene = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1400 } )
