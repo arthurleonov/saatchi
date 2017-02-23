@@ -39,6 +39,8 @@ var image1text = TweenMax.to('.pr-image1-text', 1, {
 });
 
 
+// layout 2
+
 var l2Image1 = TweenMax.to('.pr-l2-image1', 1, {
   transform: 'translate(0px, -20vh)',
   ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
@@ -55,7 +57,7 @@ var l2Image2 = TweenMax.to('.pr-l2-image2', 1, {
 });
 
 var l2Image2Container = TweenMax.to('.pr-l2-image2-container', 1, {
-  transform: 'translate(0px, 20vh)',
+  transform: 'translate(0px, 10vh)',
   ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
 });
 
@@ -68,6 +70,52 @@ var l2Image3Container = TweenMax.to('.pr-l2-image3-container', 1, {
   transform: 'translate(0px, -20vh)',
   ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
 });
+
+//layout 3
+
+
+var l3Image1 = TweenMax.to('.pr-l3-image1', 1, {
+  transform: 'translate(0px, -20vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
+var l3Image1Container = TweenMax.to('.pr-l3-image1-container', 1, {
+  transform: 'translate(0px, 15vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
+var l3Image2Container = TweenMax.to('.pr-l3-image2-container', 1, {
+  transform: 'translate(0px, 15vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
+var l3TextContainer = TweenMax.to('.pr-l3-text-container', 1, {
+  transform: 'translate(0px, -15vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
+// var l3Image2 = TweenMax.to('.pr-l2-image2', 1, {
+//   transform: 'translate(0px, -20vh)',
+//   ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+// });
+
+//4th layout
+
+var l4Image1Container = TweenMax.to('.pr-l4-image1-container', 1, {
+  transform: 'translate(0px, -20vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
+var l4Image1 = TweenMax.to('.pr-l4-image1', 1, {
+  transform: 'translate(0px, -20vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
+var l4Image1text = TweenMax.to('.pr-l4-text-container', 1, {
+  transform: 'translate(0px, -20vh)',
+  ease: Linear.easeNone, /* make sure you use Linear.easeNone so its smooth */
+});
+
 
 
 
@@ -125,6 +173,34 @@ var mainIllustrationFunction = function(){
 
   var layerL2Image3 = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1400 } )
   .setTween(l2Image3)
+  .addTo(controller);
+
+  // 3rd layout
+
+  var layerL3Image1Container = new ScrollMagic.Scene( {triggerElement: "#trigger-2", duration: 1400 ,  } )
+  .setTween(l3Image1Container)
+  .addTo(controller);
+
+  var layerL3Image2Container = new ScrollMagic.Scene( {triggerElement: "#trigger-2", duration: 1000 } )
+  .setTween(l3Image2Container)
+  .addTo(controller);
+
+  var layerL3TextContainer = new ScrollMagic.Scene( {triggerElement: "#trigger-2", duration: 1400 , offset: 500 } )
+  .setTween(l3TextContainer)
+  .addTo(controller);
+
+  //4th layout
+
+  var layer4Image1Container = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 1200 } )
+  .setTween(image1Container)
+  .addTo(controller);
+
+  var layer4Image1 = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 2500 } )
+  .setTween(image1)
+  .addTo(controller);
+
+  var layer4Image1Text = new ScrollMagic.Scene( {triggerElement: "#trigger-1", duration: 650 } )
+  .setTween(image1text)
   .addTo(controller);
 
 }
