@@ -152,7 +152,7 @@ p, span, a {
         transform-origin: 10vw 9vw; } }
     @media screen and (max-width: 432px) {
       .homepage-header2 .title2 {
-        transform-origin: 17vw 13vw;
+        transform-origin: 15vw 13vw;
         font-size: 2.5rem; } }
     .homepage-header2 .title2 .middle-name {
       font-size: 3rem;
@@ -170,6 +170,7 @@ p, span, a {
     @media screen and (max-width: 432px) {
       .homepage-header2 .vertical-line {
         height: 4px;
+        width: 80px;
         margin-bottom: 29px; } }
   .homepage-header2 .header-outer {
     padding-left: 50px;
@@ -201,7 +202,7 @@ p, span, a {
         .homepage-header2 .header-outer .right-img {
           position: relative;
           left: 20vh;
-          max-width: 60vw; } }
+          max-width: 90vw; } }
       .homepage-header2 .header-outer .right-img.slide-in {
         transform: translate(0%, 0);
         opacity: 1; }
@@ -230,6 +231,9 @@ p, span, a {
   margin-bottom: 27px;
   background-color: #1B2733;
   margin-left: 27px; }
+  @media screen and (max-width: 767px) {
+    .visit-saatchi .horizontal-line {
+      margin-left: 0; } }
 
 .visit-saatchi .underground {
   color: #0019a8; }
@@ -237,39 +241,40 @@ p, span, a {
 .visit-saatchi .bus {
   color: #dc241f; }
 
-.visit-saatchi h3 {
-  text-align: center;
-  font-size: 1.8rem; }
-  .visit-saatchi h3 span {
-    display: none;
+.visit-saatchi {
+  padding-top: 7vw; }
+  .visit-saatchi h3 {
+    text-align: center;
     font-size: 1.8rem; }
-
-.visit-saatchi .bg {
-  background-size: 45rem;
-  height: 11rem;
-  display: block;
-  margin-right: 4.7rem;
-  margin-top: 2rem;
-  margin-left: 1rem; }
-
-.visit-saatchi h4 {
-  font-size: 1rem; }
-
-.visit-saatchi .underground img, .visit-saatchi .buses img {
-  width: 40px;
-  display: inline-block; }
-
-.visit-saatchi .underground p, .visit-saatchi .buses p {
-  display: inline-block;
-  margin-top: 0.2rem;
-  vertical-align: top; }
-
-@media screen and (max-width: 992px) {
-  .visit-saatchi {
-    text-align: left;
-    padding-top: 130px; }
     .visit-saatchi h3 span {
-      display: inline-block; } }
+      display: none;
+      font-size: 1.8rem; }
+  .visit-saatchi .bg {
+    background-size: 45rem;
+    height: 11rem;
+    display: block;
+    margin-right: 4.7rem;
+    margin-top: 2rem;
+    margin-left: 1rem; }
+  .visit-saatchi h4 {
+    font-size: 1rem; }
+  .visit-saatchi .underground img, .visit-saatchi .buses img {
+    width: 40px;
+    display: inline-block; }
+  .visit-saatchi .underground p, .visit-saatchi .buses p {
+    display: inline-block;
+    margin-top: 0.2rem;
+    vertical-align: top; }
+  @media screen and (max-width: 767px) {
+    .visit-saatchi {
+      text-align: left;
+      padding-top: 0; }
+      .visit-saatchi h3 {
+        text-align: left;
+        font-size: 1.5rem; }
+        .visit-saatchi h3 span {
+          display: inline-block;
+          font-size: 1.5rem; } }
 
 .saatchi-gallery {
   margin-top: 8rem;
