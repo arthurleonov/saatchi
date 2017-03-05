@@ -1,35 +1,71 @@
 ---
 layout: default-home
 ---
-<div id="trigger-header">
 
-</div>
-<div class='container-wide logo'>
-  <h1>Saatchi</h1>
-</div>
-<div class="container-wide mb-50 homepage-header2">
-  <div class="index-header-1">
+<nav class="navbar navbar-fixed-top hidden-xs">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+     </button>
+      <a class="navbar-brand" href="#">saatchi</a>
+    </div>
 
-  </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Visit</a></li>
+        <li><a href="#">Exibitions</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Gallery Partners</a></li>
+        <li><a href="#">Saatchi Magazine</a></li>
+
+     </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class='container-fluid logo'>
   <div class="row">
-    <div class="pr-header-1" style="position: relative;">
-      <div class="col-sm-4">
-        <h1 class="header-title"><hr class="vertical-line" />DAVID</h1>
-        <h1 class="header-title surname">SALLE</h1>
+    <div class="col-xs-8">
+        <h1>Saatchi</h1>
+    </div>
+    <div class="col-xs-4">
+      <div class="menu-icon hidden-sm hidden-md hidden-lg">
+        <div class="menu-icon-line"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid mb-50 homepage-header2">
+  <div class="row">
+    <div class="" style="position: relative;">
+      <div class="col-md-4 col-sm-3">
+        <h1 class="header-title title1"><hr class="vertical-line" />DAVID</h1>
+        <h1 class="header-title surname title2">SALLE</h1>
       </div>
     </div>
     <div class="index-header-2">
-      <div class="col-sm-8">
-        <div class="header-container">
-            <img class="right-img img-responsive" src="{{site.baseurl}}/img/header-top.jpg"/>
+      <div class="col-md-8 col-sm-9">
+        <div class="header-outer">
+            <img class="right-img" src="{{site.baseurl}}/img/header-top.jpg"/>
         </div>
       </div>
     </div>
   </div>
+  <div id="trigger-navbar">
+
+  </div>
   <div class="row visit-saatchi pt-150">
-    <div class="col-sm-4 text-center">
-      <h3>VISIT <hr class="horizontal-line" /></h3>
-      <h3 class="pr-70">SAATCHI</h3>
+    <div class="col-sm-4">
+      <h3>VISIT <span>SAATCHI</span> <hr class="horizontal-line" /></h3>
+      <h3 class="pr-70 hidden-xs">SAATCHI</h3>
     </div>
     <div class="col-sm-8">
       <div class="row">
@@ -50,8 +86,6 @@ layout: default-home
   </div>
 </div>
 
-
-
 <div id="trigger-1">
 
 </div>
@@ -68,7 +102,7 @@ layout: default-home
 
         <div class="pr-image1-container">
           <div class="mt-100" style="height: 505px; overflow-y: hidden;">
-              <div class="pr-image1" style="background-image: url('{{site.baseurl}}/img/painterspainters.jpg'); height: 600px; position: relative; background-position: fixed; background-repeat: no-repeat"></div>
+              <div class="pr-image1" style="background-image: url('{{site.baseurl}}/img/painterspainters.jpg'); background-size: contain; height: 600px; position: relative; background-position: fixed; background-repeat: no-repeat"></div>
           </div>
         </div>
 
@@ -116,7 +150,7 @@ layout: default-home
       <div class="mt-500 pr-l2-image1-container" style="height: 230px; overflow-y: hidden;">
           <div class="pr-image1" style="background-image: url('{{site.baseurl}}/img/dan2.jpg'); height: 230px; position: relative; background-position: fixed; background-size: cover; background-repeat: no-repeat"></div>
       </div>
-      <!-- <img class="img-responsive mt-100 left-img" src="{{site.baseurl}}/img/dan2.jpg"/> -->
+      <img class="img-responsive mt-100 left-img" src="{{site.baseurl}}/img/dan2.jpg"/>
     </div>
     <div class="col-sm-4 no-padding">
       <div class="pr-l2-image2-container" style="height: 390px; overflow-y: hidden;">
@@ -378,3 +412,8 @@ layout: default-home
     </div>
   </div>
 </div>
+
+<script>
+
+
+</script>

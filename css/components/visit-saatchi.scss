@@ -1,6 +1,11 @@
 .visit-saatchi {
     h3 {
+      text-align: center;
       font-size: 1.8rem;
+      span {
+        display: none;
+        font-size: 1.8rem;
+      }
     }
    .bg {
       background-size: 45rem;
@@ -27,5 +32,14 @@
   .opening {
     p {
     }
+  }
+  @media screen and (max-width: 992px) {
+      text-align: left;
+      padding-top: 130px;
+      h3 {
+        span {
+                display: inline-block;
+          }
+      }
   }
 }

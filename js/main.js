@@ -9,6 +9,7 @@ var mainDuration = function(){
 console.log($(document).height());
 console.log($(window).height());
 
+
 //header
 
 var header = TweenMax.to('.pr-header-1', 1, {
@@ -121,6 +122,10 @@ var l4Image1text = TweenMax.to('.pr-l4-text-container', 1, {
 
 var mainIllustrationFunction = function(){
 
+  //navbar
+  var layerNavbar = new ScrollMagic.Scene( {triggerElement: "#trigger-navbar", duration: 70000 } )
+  .setClassToggle(".navbar", "active") // add class toggle
+  .addTo(controller);
   //header
 
   var layerHeader = new ScrollMagic.Scene( {triggerElement: "#trigger-header", duration: 1400 } )
@@ -262,3 +267,20 @@ function enableScroll() {
     window.ontouchmove = null;
     document.onkeydown = null;
 }
+
+
+
+
+$(window).bind('load', function(){
+
+  $('.header-outer').addClass('slide-in');
+  $('.right-img').addClass('slide-in');
+  $('.title1').addClass('slide-in');
+  $('.title2').addClass('slide-in');
+
+});
+
+
+$( ".menu-icon" ).click(function() {
+  $( this ).toggleClass( "effect1" );
+});

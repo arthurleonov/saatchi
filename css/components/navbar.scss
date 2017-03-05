@@ -1,12 +1,23 @@
 .navbar {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-right: 4rem;
+  background: #fff;
+  transform: translateY(-4rem);
+  transition: all 0.3s ease-out;
+  &.active {
+    transform: translateY(0rem);
+  }
   .navbar-brand {
-    font-size: 32px;
+    padding-top: 0;
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 50px;
+    padding-left: 46px;
     font-family: $headline-font;
     text-transform: uppercase;
     color: $black;
-    font-weight: bold;
+    font-weight: 600;
   }
   li {
     a {
@@ -19,3 +30,36 @@
     }
   }
 }
+
+.menu-icon{
+  margin: auto;
+  margin-top: 30px;
+  width:30px;
+  cursor: pointer;
+
+  &:before,
+  &:after,
+  .menu-icon-line{
+    border-radius: 3px;
+    background: $black;
+    content:'';
+    display:block;
+    height:2px;
+    margin:6px 0;
+    width:100%;
+    transition: all .25s ease;
+  }
+
+
+}
+
+  .effect1:after{
+    transform: translateY(-8px) rotate(225deg);
+  }
+  .effect1 .menu-icon-line{
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+  .effect1:before{
+    transform: translateY(8px) rotate(135deg);
+  }
